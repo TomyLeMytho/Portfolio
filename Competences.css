@@ -1,3 +1,27 @@
+.boite-transparente { 
+    font-family: 'Courier New', Courier, monospace;
+    background: rgb(255, 255, 255, 0.1); 
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+    width: 700px;
+    margin: 150px auto 0 auto;       
+    text-align: center;
+    animation: boite-transparente 2s ease-out 0.5s both;
+    
+}
+
+ @keyframes boite-transparente {
+            from {
+                opacity: 0;
+                transform: translateY(-50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
 @keyframes bouton{
             from {
                 opacity: 0;
