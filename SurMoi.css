@@ -1,0 +1,100 @@
+.boite-transparente { 
+    font-family: 'Courier New', Courier, monospace;
+    background: rgb(255, 255, 255, 0.1); 
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+    width: 700px;
+    margin: 150px auto 0 auto;       
+    text-align: center;
+    animation: boite-transparente 2s ease-out 0.5s both;
+    
+}
+
+@keyframes boite-transparente {
+            from {
+                opacity: 0;
+                transform: translateY(-50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+.boite-transparente2 { 
+    font-family: 'Courier New', Courier, monospace;
+    background: rgb(255, 255, 255, 0.1); 
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+    width: 300px;
+    height: 300px;
+    margin-left: 50px;     
+    margin-top: 50px;
+    text-align: center;
+    animation: boite-transparente 2s ease-out 0.5s both;
+    
+}
+
+@keyframes boite-transparente2 {
+            from {
+                opacity: 0;
+                transform: translateY(-50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }   
+body {
+            font-family: 'Space Mono', monospace;
+            --color: #1e1e1e;
+            background-color: #0c0c0c;
+            background-image: linear-gradient(
+                    0deg,
+                    transparent 24%,
+                    var(--color) 25%,
+                    var(--color) 26%,
+                    transparent 27%,
+                    transparent 74%,
+                    var(--color) 75%,
+                    var(--color) 76%,
+                    transparent 77%,
+                    transparent
+                ),
+                linear-gradient(
+                    90deg,
+                    transparent 24%,
+                    var(--color) 25%,
+                    var(--color) 26%,
+                    transparent 27%,
+                    transparent 74%,
+                    var(--color) 75%,
+                    var(--color) 76%,
+                    transparent 77%,
+                    transparent
+                );
+            background-size: 55px 55px;
+            color: #ffffff;
+            overflow-x: hidden;
+            line-height: 1.6;
+        }
+
+.hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: 
+                radial-gradient(circle at 20% 80%, rgba(255,255,255,0.1) 0%, transparent 50%),
+                radial-gradient(circle at 80% 20%, rgba(255,255,255,0.1) 0%, transparent 50%),
+                radial-gradient(circle at 40% 40%, rgba(255,255,255,0.05) 0%, transparent 50%);
+            animation: pulse 4s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 0.5; }
+            50% { opacity: 1; }
+        }
