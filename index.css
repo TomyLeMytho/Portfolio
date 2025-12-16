@@ -25,7 +25,7 @@
 .Competences {
     position: fixed;
     top: 50%;
-    left: 35%;
+    left: 43%;
     font-family: 'Courier New', Courier, monospace;
     display: inline-block;
     padding: 12px 25px;
@@ -47,7 +47,7 @@
 .surmoi {
     position: fixed;
     top: 50%;
-    left: 53%;
+    left: 25%;
     font-family: 'Courier New', Courier, monospace;
     display: inline-block;
     padding: 12px 25px;
@@ -61,6 +61,27 @@
 }
 
 .surmoi:hover {
+    background: rgba(255, 255, 255, 0.633); 
+    
+}
+
+.Contacter {
+    position: fixed;
+    top: 50%;
+    left: 63%;
+    font-family: 'Courier New', Courier, monospace;
+    display: inline-block;
+    padding: 12px 25px;
+    background: rgb(255, 255, 255, 0.1); 
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s ease;  
+    animation: bouton 2s ease-out 0.5s both;
+}
+
+.Contacter:hover {
     background: rgba(255, 255, 255, 0.633); 
     
 }
