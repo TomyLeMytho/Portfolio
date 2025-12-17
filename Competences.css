@@ -32,7 +32,7 @@
 .Maitrise { 
     font-family: 'Courier New', Courier, monospace; 
     color: white;
-    margin-left: 620px;     
+    margin-left: 565px;     
     margin-top: 50px;
     text-align: left;
     animation: apparition 2s ease-out 0.5s both;
@@ -195,6 +195,16 @@
             }
         }
 
+.Maitrise2 { 
+    font-family: 'Courier New', Courier, monospace; 
+    color: white;
+    margin-left: 525px;     
+    margin-top: 50px;
+    text-align: left;
+    animation: apparition 2s ease-out 0.5s both;
+    
+}
+
 body {
             font-family: 'Space Mono', monospace;
             --color: #1e1e1e;
@@ -227,4 +237,22 @@ body {
             color: #ffffff;
             overflow-x: hidden;
             line-height: 1.6;
+        }
+.hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: 
+                radial-gradient(circle at 20% 80%, rgba(255,255,255,0.1) 0%, transparent 50%),
+                radial-gradient(circle at 80% 20%, rgba(255,255,255,0.1) 0%, transparent 50%),
+                radial-gradient(circle at 40% 40%, rgba(255,255,255,0.05) 0%, transparent 50%);
+            animation: pulse 4s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 0.5; }
+            50% { opacity: 1; }
         }
