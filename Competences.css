@@ -1,3 +1,189 @@
+@keyframes apparition {
+            from {
+                opacity: 0;
+                transform: translateY(-50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+}
+
+.MesCompetences { 
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    margin: 150px auto 0 auto;  
+    margin-top: 20px;     
+    text-align: center;
+    animation: apparition 2s ease-out 0.5s both;
+    
+}
+
+.Codage { 
+    font-family: 'Courier New', Courier, monospace; 
+    color: white;
+    margin-left: 35px;     
+    margin-top: 50px;
+    text-align: center;
+    animation: apparition 2s ease-out 0.5s both;
+    
+}
+
+.Maitrise { 
+    font-family: 'Courier New', Courier, monospace; 
+    color: white;
+    margin-left: 620px;     
+    margin-top: 50px;
+    text-align: left;
+    animation: apparition 2s ease-out 0.5s both;
+    
+}
+
+.HTML { 
+    font-family: 'Courier New', Courier, monospace; 
+    color: white;
+    margin-left: 168px;     
+    margin-top: 0px;
+    text-align: left;
+    animation: apparition 2s ease-out 0.5s both;
+    
+}
+.progress-bar {
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 300px;              
+    height: 20px;             
+    border: 2px solid white;   
+    background-color: transparent; 
+    border-radius: 10px;       
+    overflow: hidden;          
+    animation: apparition 2s ease-out 0.5s both;
+}
+
+.progress-fill {
+    height: 100%;          
+    background-color: white;                  
+    transition: width 0.4s ease; 
+    animation: fillBar 2s ease forwards;
+}
+
+.css { 
+    font-family: 'Courier New', Courier, monospace; 
+    border-radius: 5px;
+    color: white;
+    margin-left: 530px;     
+    margin-top: -106px;
+    text-align: left;
+    animation: apparition 2s ease-out 0.5s both;
+    
+}
+.progress-bar-css {
+    margin-top: 10px;
+    margin-left: 390px;
+    width: 300px;              
+    height: 20px;             
+    border: 2px solid white;   
+    background-color: transparent; 
+    border-radius: 10px;       
+    overflow: hidden;          
+    animation: apparition 2s ease-out 0.5s both;
+}
+.progress-fill-css {
+    height: 100%;          
+    background-color: white;                  
+    transition: width 0.4s ease; 
+    animation: fillBar-css 2s ease forwards;
+}
+
+.php { 
+    font-family: 'Courier New', Courier, monospace; 
+    border-radius: 5px;
+    color: white;
+    margin-left: 880px;     
+    margin-top: -106px;
+    text-align: left;
+    animation: apparition 2s ease-out 0.5s both;
+    
+}
+.progress-bar-php {
+    margin-top: 10px;
+    margin-left: 750px;
+    width: 300px;              
+    height: 20px;             
+    border: 2px solid white;   
+    background-color: transparent; 
+    border-radius: 10px;       
+    overflow: hidden;          
+    animation: apparition 2s ease-out 0.5s both;
+}
+
+.progress-fill-php {
+    height: 100%;          
+    background-color: white;                  
+    transition: width 0.4s ease; 
+    animation: fillBar-php 2s ease forwards;
+}
+
+.python { 
+    font-family: 'Courier New', Courier, monospace; 
+    border-radius: 5px;
+    color: white;
+    margin-left: 1210px;     
+    margin-top: -106px;
+    text-align: left;
+    animation: apparition 2s ease-out 0.5s both;
+    
+}
+.progress-bar-python {
+    margin-top: 10px;
+    margin-left: 1109px;
+    width: 300px;              
+    height: 20px;             
+    border: 2px solid white;   
+    background-color: transparent; 
+    border-radius: 10px;       
+    overflow: hidden;          
+    animation: apparition 2s ease-out 0.5s both;
+}
+
+.progress-fill-python {
+    height: 100%;          
+    background-color: white;                  
+    transition: width 0.4s ease; 
+    animation: fillBar-python 2s ease forwards;
+}
+@keyframes fillBar {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 65%;                
+  }
+}
+@keyframes fillBar-css {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 80%;                
+  }
+}
+@keyframes fillBar-php {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 20%;                
+  }
+}
+@keyframes fillBar-python {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 0%;                
+  }
+}
 @keyframes bouton{
             from {
                 opacity: 0;
@@ -41,23 +227,4 @@ body {
             color: #ffffff;
             overflow-x: hidden;
             line-height: 1.6;
-        }
-
-.hero::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: 
-                radial-gradient(circle at 20% 80%, rgba(255,255,255,0.1) 0%, transparent 50%),
-                radial-gradient(circle at 80% 20%, rgba(255,255,255,0.1) 0%, transparent 50%),
-                radial-gradient(circle at 40% 40%, rgba(255,255,255,0.05) 0%, transparent 50%);
-            animation: pulse 4s ease-in-out infinite;
-        }
-
-        @keyframes pulse {
-            0%, 100% { opacity: 0.5; }
-            50% { opacity: 1; }
         }

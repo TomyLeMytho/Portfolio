@@ -12,7 +12,6 @@
 
 .boite-transparente { 
     font-family: 'Courier New', Courier, monospace;
-    background: rgb(255, 255, 255, 0.1); 
     padding: 20px;
     border-radius: 5px;
     color: white;
@@ -27,7 +26,6 @@
 
 .boite-transparente2 { 
     font-family: 'Courier New', Courier, monospace;
-    background: rgb(255, 255, 255, 0.1); 
     padding: 20px;
     border-radius: 5px;
     color: white;
@@ -43,7 +41,6 @@
 
 .boite-transparente3 { 
     font-family: 'Courier New', Courier, monospace;
-    background: rgb(255, 255, 255, 0.1); 
     padding: 20px;
     border-radius: 5px;
     color: white;
@@ -58,7 +55,6 @@
 
 .boite-transparente4 { 
     font-family: 'Courier New', Courier, monospace;
-    background: rgb(255, 255, 255, 0.1); 
     padding: 20px;
     border-radius: 5px;
     color: white;
