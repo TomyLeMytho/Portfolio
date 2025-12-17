@@ -42,12 +42,13 @@
 .HTML { 
     font-family: 'Courier New', Courier, monospace; 
     color: white;
-    margin-left: 168px;     
+    margin-left: 150px;     
     margin-top: 0px;
     text-align: left;
     animation: apparition 2s ease-out 0.5s both;
     
 }
+
 .progress-bar {
     margin-top: 10px;
     margin-left: 30px;
@@ -71,7 +72,7 @@
     font-family: 'Courier New', Courier, monospace; 
     border-radius: 5px;
     color: white;
-    margin-left: 530px;     
+    margin-left: 520px;     
     margin-top: -106px;
     text-align: left;
     animation: apparition 2s ease-out 0.5s both;
@@ -205,6 +206,192 @@
     
 }
 
+.Davinci { 
+    font-family: 'Courier New', Courier, monospace; 
+    color: white;
+    margin-left: 490px;     
+    margin-top: 0px;
+    text-align: left;
+    animation: apparition 2s ease-out 0.5s both;
+    
+}
+
+.progress-bar-Davinci {
+    margin-top: 10px;
+    margin-left: 390px;
+    width: 300px;              
+    height: 20px;             
+    border: 2px solid white;   
+    background-color: transparent; 
+    border-radius: 10px;       
+    overflow: hidden;          
+    animation: apparition 2s ease-out 0.5s both;
+}
+
+.progress-fill-Davinci {
+    height: 100%;          
+    background-color: white;                  
+    transition: width 0.4s ease; 
+    animation: fillBar-Davinci 2s ease forwards;
+}
+@keyframes fillBar-Davinci {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 75%;                
+  }
+}
+.premierepro { 
+    font-family: 'Courier New', Courier, monospace; 
+    border-radius: 5px;
+    color: white;
+    margin-left: 765px;     
+    margin-top: -106px;
+    text-align: left;
+    animation: apparition 2s ease-out 0.5s both;
+    
+}
+.progress-bar-premierepro {
+    margin-top: 10px;
+    margin-left: 750px;
+    width: 300px;              
+    height: 20px;             
+    border: 2px solid white;   
+    background-color: transparent; 
+    border-radius: 10px;       
+    overflow: hidden;          
+    animation: apparition 2s ease-out 0.5s both;
+}
+.progress-fill-premierepro {
+    height: 100%;          
+    background-color: white;                  
+    transition: width 0.4s ease; 
+    animation: fillBar-premierepro 2s ease forwards;
+}
+@keyframes fillBar-premierepro {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 50%;                
+  }
+}
+
+.Maitrise3 { 
+    font-family: 'Courier New', Courier, monospace; 
+    color: white;
+    margin-left: 525px;     
+    margin-top: 50px;
+    text-align: left;
+    animation: apparition 2s ease-out 0.5s both;
+    
+}
+.photoshop { 
+    font-family: 'Courier New', Courier, monospace; 
+    border-radius: 5px;
+    color: white;
+    margin-left: 428px;     
+    margin-top: 10px;
+    text-align: left;
+    animation: apparition 2s ease-out 0.5s both;
+    
+}
+.progress-bar-photoshop {
+    margin-top: 20px;
+    margin-left: 390px;
+    width: 300px;              
+    height: 20px;             
+    border: 2px solid white;   
+    background-color: transparent; 
+    border-radius: 10px;       
+    overflow: hidden;          
+    animation: apparition 2s ease-out 0.5s both;
+}
+.progress-fill-photoshop {
+    height: 100%;          
+    background-color: white;                  
+    transition: width 0.4s ease; 
+    animation: fillBar-photoshop 2s ease forwards;
+}
+
+@keyframes fillBar-photoshop {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 40%;                
+  }
+}
+
+.photopea { 
+    font-family: 'Courier New', Courier, monospace; 
+    border-radius: 5px;
+    color: white;
+    margin-left: 850px;     
+    margin-top: -106px;
+    text-align: left;
+    animation: apparition 2s ease-out 0.5s both;
+    
+}
+.progress-bar-photopea {
+    margin-top: 0px;
+    margin-left: 750px;
+    width: 300px;              
+    height: 20px;             
+    border: 2px solid white;   
+    background-color: transparent; 
+    border-radius: 10px;       
+    overflow: hidden;          
+    animation: apparition 2s ease-out 0.5s both;
+}
+.progress-fill-photopea {
+    height: 100%;          
+    background-color: white;                  
+    transition: width 0.4s ease; 
+    animation: fillBar-photopea 2s ease forwards;
+}
+
+@keyframes fillBar-photopea {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 60%;                
+  }
+}
+
+.Retour {
+    position: fixed;
+    top: 2%;
+    left: 2%;
+    font-family: 'Courier New', Courier, monospace;
+    display: inline-block;
+    padding: 12px 25px;
+    background: rgb(255, 255, 255, 0.1); 
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s ease;  
+    animation: bouton 2s ease-out 0.5s both;
+}
+
+.Retour:hover {
+    background: rgba(255, 255, 255, 0.633); 
+    
+}
+
+@keyframes bouton{
+            from {
+                opacity: 0;
+                transform: translateY(-50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
 body {
             font-family: 'Space Mono', monospace;
             --color: #1e1e1e;
